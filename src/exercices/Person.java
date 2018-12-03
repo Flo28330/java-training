@@ -27,8 +27,11 @@ public class Person {
     // TODO 7. Add getter method for wilder attribute
 
 
+    }
     // TODO 8. Add setter method for wilder attribute
-
+    public void setWilder (boolean wilder){
+        this.wilder = wilder;
+    }
 
     // TODO 9. Create a method 'whoAmI' that returns "My name is {name} and I'm {age}"
     // where you replace {name} and {age} with attributes values
